@@ -4,7 +4,7 @@ const nextConfig = {
   output: "export",  // <=== enables static exports
   reactStrictMode: true,
   distDir: 'build',
-  assetPrefix: '/event-site-yavd/',
+  // assetPrefix: '/event-site-yavd/',
 };
 
 module.exports = nextConfig

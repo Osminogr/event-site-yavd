@@ -60,7 +60,7 @@ export default function CardList() {
         
         <Card shadow="md" key={index} isPressable onPress={() => console.log("item pressed")}>
         <CardBody className="overflow-visible p-0 relative">
-        <a href={`/project/${item.id}`}>
+        <a href={`/event-site-yavd/project/${item.id}`}>
           <Image
             shadow="sm"
             radius="lg"
